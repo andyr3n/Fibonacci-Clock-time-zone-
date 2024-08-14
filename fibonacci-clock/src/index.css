@@ -1,6 +1,5 @@
-/* Global Styles */
 body {
-  background-color: #f0f4f8; /* Original light greyish blue background */
+  background-color: #f0f4f8; 
   color: #333;
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -12,7 +11,7 @@ body {
 }
 
 .app {
-  background-color: #fff; /* White for contrast */
+  background-color: #fff; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
@@ -21,7 +20,7 @@ body {
 }
 
 h1 {
-  color: #2a9d8f; /* Original dark teal color */
+  color: #2a9d8f; 
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -36,37 +35,37 @@ h1 {
 }
 
 .city-time {
-  background-color: #e9f1f7; /* Original pale blue background */
-  border: 2px solid #d1e6ef; /* Original light greyish blue border */
+  background-color: #e9f1f7;
+  border: 2px solid #d1e6ef;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft Shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   transition: transform 0.2s ease-in-out;
   flex: 1;
-  max-width: 300px; /* Ensures cards are not too wide */
+  max-width: 300px;
 }
 
 .city-time:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h2, h3 {
   margin-bottom: 10px;
   font-size: 1.8rem;
-  color: #264653; /* Original dark slate color */
+  color: #264653;
 }
 
 p {
   font-size: 1.4rem;
-  color: #264653; /* Original dark slate color */
+  color: #264653;
 }
 
 .clock-angle, .alarm-display {
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid #d1e6ef; /* Original light greyish blue border */
+  border-top: 1px solid #d1e6ef;
 }
 
 /* Alarm Display Styling */
@@ -85,23 +84,23 @@ p {
 }
 
 .progress-bar {
-  background-color: #e9f1f7; /* Original pale blue background */
+  background-color: #e9f1f7;
   border-radius: 10px;
   height: 20px;
   overflow: hidden;
 }
 
 .progress-bar-fill {
-  background-color: #42a5f5; /* Original sky blue fill */
+  background-color: #42a5f5;
   height: 100%;
   border-radius: 10px 0 0 10px;
-  transition: width 1s linear; /* Smooth transition as the bar fills */
+  transition: width 1s linear;
 }
 
 .time-display {
   margin-top: 10px;
   font-size: 1.2rem;
-  color: #264653; /* Original dark slate color */
+  color: #264653;
 }
 
 @media (max-width: 768px) {

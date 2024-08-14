@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+  background-color: #f0f4f8; /* Original light greyish blue background */
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background-color: #fff; /* White for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  color: #2a9d8f; /* Original dark teal color */
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.city-times {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.city-time {
+  background-color: #e9f1f7; /* Original pale blue background */
+  border: 2px solid #d1e6ef; /* Original light greyish blue border */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft Shadow */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  flex: 1;
+  max-width: 300px; /* Ensures cards are not too wide */
+}
+
+.city-time:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #264653; /* Original dark slate color */
+}
+
+p {
+  font-size: 1.4rem;
+  color: #264653; /* Original dark slate color */
+}
+
+.clock-angle, .alarm-display {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #d1e6ef; /* Original light greyish blue border */
+}
+
+/* Alarm Display Styling */
+.alarm-display {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #d1e6ef;
+  text-align: center;
+}
+
+.progress-bar-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  background-color: #e9f1f7; /* Original pale blue background */
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background-color: #42a5f5; /* Original sky blue fill */
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  transition: width 1s linear; /* Smooth transition as the bar fills */
+}
+
+.time-display {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #264653; /* Original dark slate color */
+}
+
+@media (max-width: 768px) {
+  .city-times {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .city-time {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
